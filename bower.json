@@ -1,6 +1,6 @@
 {
   "name": "dom-token-list-polyfill",
-  "description": "Polyfills token list in IE9",
+  "description": "Polyfills DOM Token List in IE9",
   "version": "0.0.0",
   "author": "Arron Schaar",
   "keywords": [
