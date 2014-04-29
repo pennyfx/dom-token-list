@@ -4,8 +4,7 @@
   "version": "0.0.1",
   "author": "Arron Schaar",
   "keywords": [
-    "Library",
-    "Polyfill",
+    "polyfill",
     "web-components",
     "x-tag"
   ],
