@@ -38,10 +38,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bumpup');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('build', ['jshint','smush-components']);
+  grunt.registerTask('build', ['smush-components','concat:dist']);
   grunt.registerTask('bump:patch', ['bumpup:patch', 'tagrelease']);
+  grunt.registerTask('bump:push', ['bumpup:patch', 'tagrelease','push']);
 
   grunt.registerTask('push', ['exec:update_master']);
-  grunt.registerTask('bump-push', ['bump:patch','push']);
 
 };
